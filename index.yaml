@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   vllm-stack:
   - apiVersion: v2
-    created: "2025-03-14T21:56:12.529324+04:00"
+    created: "2025-03-14T22:00:13.922243+04:00"
     description: The stack deployment of vLLM
-    digest: caa04a7dd195a68996a02bc9d8b9e61212761ff32673b5dcc661223c392cdd31
+    digest: 1dc0d20814ef5dd6d422b12dc3ce16d5ec38ef97fd016ab9d8feeebebd4e2e85
     maintainers:
     - name: apostac
     name: vllm-stack
@@ -12,4 +12,4 @@ entries:
     urls:
     - https://bluorion-com.github.io/vllm-production-stack/vllm-stack-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-14T21:56:12.528749+04:00"
+generated: "2025-03-14T22:00:13.92168+04:00"
