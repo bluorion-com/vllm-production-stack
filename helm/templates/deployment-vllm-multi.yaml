@@ -49,7 +49,7 @@ spec:
       containers:
         - name: "vllm"
           # image: "{{ required "Required value 'modelSpec.repository' must be defined !" $modelSpec.repository }}:{{ required "Required value 'modelSpec.tag' must be defined !" $modelSpec.tag }}"
-          image: {{ modelSpec.repository | quote }}:{{ modelSpec.tag | quote }}
+          image: {{ $modelSpec.repository | quote }}:{{ $modelSpec.tag | quote }}
 
           command:
           - "vllm"
