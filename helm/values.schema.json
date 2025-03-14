@@ -55,6 +55,12 @@
               "modelURL": {
                 "type": "string"
               },
+              "model": {
+                "type": "string"
+              },
+              "tokenizer": {
+                "type": "string"
+              },
               "replicaCount": {
                 "type": "integer"
               },
@@ -147,6 +153,9 @@
               "vllmConfig": {
                 "type": "object",
                 "properties": {
+                  "disableCustomAllReduce": {
+                    "type": "boolean"
+                  },
                   "enablePrefixCaching": {
                     "type": "boolean"
                   },
