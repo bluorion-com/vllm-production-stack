@@ -52,9 +52,6 @@
               "tag": {
                 "type": "string"
               },
-              "modelURL": {
-                "type": "string"
-              },
               "model": {
                 "type": "string"
               },
@@ -269,7 +266,6 @@
               "name",
               "repository",
               "tag",
-              "modelURL",
               "replicaCount",
               "requestCPU",
               "requestMemory",
